@@ -1,0 +1,21 @@
+# core quantum computing framework
+pennylane>=0.32.0
+pennylane-default-qubit>=0.32.0
+
+# deep learning and image processing
+tensorflow>=2.13.0
+keras>=2.13.0
+
+# computing and optimization
+numpy>=1.24.0
+scipy>=1.10.0
+
+# machine learning utilities
+scikit-learn>=1.3.0
+
+# data visualization
+matplotlib>=3.7.0
+
+# image processing and data manipulation
+Pillow>=10.0.0
+pandas>=2.0.0
