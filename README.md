@@ -45,24 +45,6 @@ The project uses the C-NMC Leukemia dataset:
 - **Image Size**: 450×450 RGB microscopy images
 - **Classes**: Leukemia cells vs. Normal cells
 
-## Usage
-
-### Data Preparation
-```python
-# set up data paths
-train_path = "path/to/training_data/fold_0"
-val_path = "path/to/validation_data/val_data"
-
-# configure image preprocessing
-image_gen = ImageDataGenerator(
-    rotation_range=20,
-    width_shift_range=0.10,
-    height_shift_range=0.10,
-    rescale=1/255,
-    # ... other augmentations
-)
-```
-
 ## Results
 
 - **Training Accuracy**: Successfully converged during optimization
